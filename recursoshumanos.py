@@ -5,7 +5,7 @@ while True:
     print("\nMENU de registro \n 1- agregar colaborador \n 2- visualizar \n 3-eliminar \n 4-salir")
     op = input()
     if op == "1":
-       archivo = open("recursoshumanos.csv" , "w")
+       archivo = open("recursoshumanos.csv" , "a")
        nombre = input("escribe tu nombre: ")
        cedula = input("escribe tu cedula: ")
        departamento = input("departamento: ")
